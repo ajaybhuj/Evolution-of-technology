@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 2em;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+/* #homeImage {
+  float: Right;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  margin-right: 20px;
+  max-width: 200px; /* Adjust as needed */
+} */
+
+h1 {
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #35424a;
+  color: #ffffff;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #35424a;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #47575e;
+}
+
+
+.card {
+  width: 200px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 20px;
+}
+.card {
+  width: 200px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 20px;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+#flexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 80%;
+  margin: auto;
+  padding: 2em;
+}
+
+.card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card p {
+  margin-top: 10px;
+}
+/* .active {
+  background-color: #47575e;
+} */
+#earlyCard{
+  width: 300px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 20px;
+}
+#earlyCard img{
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+#earlyCard p{
+  margin-top: 10px; 
+}
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
